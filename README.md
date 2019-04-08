@@ -1,6 +1,10 @@
-# dominant_color_using_Kmeans
-this code will check each pixel and apply K Means clustering to find out a dominant colour . 
+# dominant_color_using_Kmeans and hex value finder and neutral color remover (*work in progress*)
+combined.py - this code will check each pixel and apply K Means clustering to find out a dominant colour . 
+hex_color.py - will check for dominat colours and convert there RGB value to HEX value 
+#removal of neutral colours using masking : i have tried applying the technique but it fails as neighbouring cluster take the void 
+i tried to delete the negate the pixel from a pertucular range but then the array falls short of 1 value and hence reshape() function from numpy does not work .
 
+# combined.py
 https://github.com/SPJasti/dominant_color_using_Kmeans/blob/master/notH_4.jpg
 sample image for testing 
 
@@ -37,6 +41,12 @@ cluster_centers - [[ 43.30203808  82.52354433  25.58764615]
  *will change for same image upon execution of code*
 
 Hex codes are:  ['#a99176', '#2b5219', '#c7cfc9', '#276085', '#6a9fc0']
-*will no change for same image upon execution of code*
+*won't change for same image upon execution of code any number of times *
+
+![](https://github.com/SPJasti/dominant_color_using_Kmeans/blob/master/hex%20to%20rgb/1.PNG)
+![](https://github.com/SPJasti/dominant_color_using_Kmeans/blob/master/hex%20to%20rgb/2.PNG)
+![](https://github.com/SPJasti/dominant_color_using_Kmeans/blob/master/hex%20to%20rgb/3.PNG)
+![](https://github.com/SPJasti/dominant_color_using_Kmeans/blob/master/hex%20to%20rgb/4.PNG)
+![](https://github.com/SPJasti/dominant_color_using_Kmeans/blob/master/hex%20to%20rgb/5.PNG)
 
 
