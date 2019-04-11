@@ -1,7 +1,7 @@
-# dominant_color_using_Kmeans and hex value finder and neutral color remover (*work in progress*)
+# dominant_color_using_Kmeans and hex value finder and neutral color remover (*work in progress*) 
 combined.py - this code will check each pixel and apply K Means clustering to find out a dominant colour . 
 hex_color.py - will check for dominat colours and convert there RGB value to HEX value 
-#removal of neutral colours using masking : i have tried applying the technique but it fails as neighbouring cluster take the void 
+# removal of neutral colours using masking : i have tried applying the technique but it fails as neighbouring cluster take the void 
 i tried to delete the negate the pixel from a pertucular range but then the array falls short of 1 value and hence reshape() function from numpy does not work .
 
 # combined.py
