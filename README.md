@@ -1,4 +1,5 @@
 # update ! made a App using Vuforia (if hand is dirty it superimposes germs ) : soon will be uploaded on existing/new repository 
+(*it is a Augmented reality project*)
 # 
 # dominant_color_using_Kmeans and hex value finder and neutral color remover (*work in progress*) 
 combined.py - this code will check each pixel and apply K Means clustering to find out a dominant colour . 
